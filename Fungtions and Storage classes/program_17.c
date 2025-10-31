@@ -1,0 +1,1 @@
+//Write a C program to calculate the GCD (Greatest common divisor) of two numbers. 
