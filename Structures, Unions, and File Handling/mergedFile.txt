@@ -1,4 +1,0 @@
-Arrays and Strings: Array notation and memory 
-User-Defined Data Types: Structure, union, enumerated data types, arrays of structures.
-Pointers: Introduction to pointers and address arithmetic, 
-File Handling: File declarations, working with text and binary files.
