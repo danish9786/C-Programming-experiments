@@ -1,0 +1,3 @@
+
+Pointers: Introduction to pointers and address arithmetic, 
+File Handling: File declarations, working with text and binary files.
