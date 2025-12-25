@@ -116,7 +116,7 @@ void addContact()
     do {
         printf("Enter Phone (10 digits): ");
         fgets(c.phone, sizeof(c.phone), stdin);
-        c.phone[strcspn(c.phone, "\n")] = '\0';
+        c.phone[strcspn(c.phone, "\n")] = 0;
         
         if(isValidPhone(c.phone)) {
             break;
