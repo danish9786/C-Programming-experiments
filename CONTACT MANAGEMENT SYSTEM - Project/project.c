@@ -110,13 +110,13 @@ void addContact()
     // Get contact details
     printf("Enter Name: ");
     fgets(c.name, sizeof(c.name), stdin);
-    c.name[strcspn(c.name, "\n")] = 0;
+    c.name[strcspn(c.name, "\n")] = '\0';
     
     // Phone validation using do-while loop
     do {
         printf("Enter Phone (10 digits): ");
         fgets(c.phone, sizeof(c.phone), stdin);
-        c.phone[strcspn(c.phone, "\n")] = 0;
+        c.phone[strcspn(c.phone, "\n")] = '\0';
         
         if(isValidPhone(c.phone)) {
             break;
